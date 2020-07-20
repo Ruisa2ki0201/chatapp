@@ -11,12 +11,40 @@
 .side_bar_header{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_header a{
+  text-decoration: none;
+  color: white;
+}
+
+.chat_room{
+  font-size: 10px;
+}
+
+.chat_room  a{
+  border: 1px solid lightblue;
+  text-decoration: none;
+  color: deepskyblue;
+  padding: 14px 14px;
 }
 
 .side_bar_headers{
   height: calc(100vh - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+}
+
+.room_header{
+  padding: 20px 0 40px;
+}
+
+.room_header a{
+  text-decoration: none;
+  color: white;
 }
 
 .chat{
